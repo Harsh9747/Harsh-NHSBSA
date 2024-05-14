@@ -16,11 +16,16 @@ The tests are written in Java, using Cucumber framework, Maven build and Seleniu
 **Update the web browser in src/test/resources/configuration/defaults.properties to run with chrome or firefox browser**
 
 # Execute the following Maven command to run the tests:
+**To run all tests:**
 - Mvn clean test
 
-**To run tag specific tests:**  
+**To run tag specific tests:**
 
-- This command will compile the code, execute the Cucumber tests, and display the test results in the terminal.
+# Test Reports
+**After the test run is complete 3 reports are currently generated:**
+- A HTML Cucumber report
+- A PDF Cucumber report
+- A HTML Index report
 
 # Test Suite Structure
 1. 'src/test/resources/features': Contains the feature files written in Gherkin syntax.
@@ -28,7 +33,7 @@ The tests are written in Java, using Cucumber framework, Maven build and Seleniu
 3. 'src/test/java/com/localhost/runner': Contains the runner class (TestRunner.java) to execute the Cucumber tests.
 
 # Contributors
-- Harsh Patel
+ Harsh Patel
 
 - Feel free to contribute to this project by opening issues or pull requests.
 - Feel free to customize the README file according to your project structure and requirements.
