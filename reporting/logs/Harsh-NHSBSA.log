@@ -1,0 +1,31 @@
+2024-05-13 20:15:11 INFO  com.localhost.runner.TestRunner:32 - Starting E2E Test Suite ...
+2024-05-13 20:15:11 INFO  com.localhost.runner.TestRunner:40 - == Node: local
+2024-05-13 20:15:11 INFO  com.localhost.runner.TestRunner:41 - == Environment: qa
+2024-05-13 20:15:11 INFO  com.localhost.runner.TestRunner:42 - == Browser: chrome
+2024-05-13 20:15:11 INFO  com.localhost.runner.TestRunner:43 - == Language: en
+2024-05-13 20:15:11 INFO  com.localhost.runner.TestRunner:44 - == Implicit Wait: 30
+2024-05-13 20:15:11 INFO  com.localhost.runner.TestRunner:45 - == Perfecto OS: windows
+2024-05-13 20:15:11 INFO  com.localhost.runner.TestRunner:46 - == Cucumber Tags: null
+2024-05-13 20:15:11 INFO  com.localhost.Hooks:23 - Setup before Scenario: Verify if user can search a job with my preferences with recently posted job results successfully
+2024-05-13 20:15:11 INFO  com.localhost.driverfactory.ManageDriver:31 - Setting up Selenium driver for Local Environment : 
+2024-05-13 20:15:15 INFO  com.localhost.pages.HomePage:40 - Enter Job Preference = Automation Test Analyst
+2024-05-13 20:15:15 INFO  com.localhost.pages.HomePage:45 - Clicking on Search Button = [[ChromeDriver: chrome on windows (77b0a8a4e28bcecf36aaa85c2fc1fb23)] -> xpath: //input[@id='search']]
+2024-05-13 20:15:16 INFO  com.localhost.pages.SearchResultPage:66 - Sort by Date Posted = [[ChromeDriver: chrome on windows (77b0a8a4e28bcecf36aaa85c2fc1fb23)] -> xpath: //select[@id='sort']]
+2024-05-13 20:15:16 INFO  com.localhost.Hooks:36 - Teardown after Scenario: Verify if user can search a job with my preferences with recently posted job results successfully
+2024-05-13 20:15:16 INFO  com.localhost.driverfactory.ManageDriver:62 - Closing Browser
+2024-05-13 20:15:16 WARN  org.asynchttpclient.netty.handler.WebSocketHandler:142 - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
