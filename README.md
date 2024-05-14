@@ -13,7 +13,7 @@ The tests are written in Java, using Cucumber framework, Maven build and Seleniu
 # Navigate to the project directory:
 - cd Harsh-NHSBSA
 
-## Update the web browser in src/test/resources/configuration/defaults.properties to run with chrome or firefox browser.
+**Update the web browser in src/test/resources/configuration/defaults.properties to run with chrome or firefox browser**
 
 # Execute the following Maven command to run the tests:
 - Mvn clean test
