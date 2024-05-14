@@ -1,7 +1,5 @@
 package com.localhost.driverfactory;
-/* 
- Created by Patel
- */
+
 
 
 import com.localhost.propertyReader.PropertyReader;

@@ -17,7 +17,7 @@ The tests are written in Java, using Cucumber framework, Maven build and Seleniu
 
 # Execute the following Maven command to run the tests:
 **To run all tests:**
-- Mvn clean test
+- mvn clean test
 
 **To run tag specific tests:**
 

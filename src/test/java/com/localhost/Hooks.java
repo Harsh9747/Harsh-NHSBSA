@@ -1,7 +1,4 @@
 package com.localhost;
-/* 
- Created by Kalpesh Patel
- */
 
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;

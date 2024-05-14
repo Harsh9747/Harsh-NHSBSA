@@ -1,7 +1,4 @@
 package com.localhost.runner;
-/* 
- Created by
- */
 
 
 import com.localhost.propertyReader.PropertyReader;

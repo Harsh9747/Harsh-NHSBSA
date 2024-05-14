@@ -1,7 +1,5 @@
 package com.localhost.propertyReader;
-/* 
- Created by Patel
- */
+
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

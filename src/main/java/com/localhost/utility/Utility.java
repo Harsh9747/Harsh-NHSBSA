@@ -1,7 +1,5 @@
 package com.localhost.utility;
-/* 
- Created by Patel
- */
+
 
 import com.localhost.driverfactory.ManageDriver;
 import org.apache.commons.io.FileUtils;
