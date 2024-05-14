@@ -33,7 +33,7 @@ The tests are written in Java, using Cucumber framework, Maven build and Seleniu
 3. 'src/test/java/com/localhost/runner': Contains the runner class (TestRunner.java) to execute the Cucumber tests.
 
 # Contributors
-**Harsh Patel**
+  **Harsh Patel**
 
 - Feel free to contribute to this project by opening issues or pull requests.
 - Feel free to customize the README file according to your project structure and requirements.
