@@ -12,7 +12,7 @@ Feature: As a jobSeeker on NHS Jobs website
     Examples:
       | job_preferences         |
       | Automation Test Analyst |
-#      | Test Analyst            |
-#      | Data Engineer           |
-#      | Test Engineer           |
-#      | SDET                    |
+      | Test Analyst            |
+      | Data Engineer           |
+      | Test Engineer           |
+      | SDET                    |

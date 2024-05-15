@@ -13,13 +13,15 @@ The tests are written in Java, using Cucumber framework, Maven build and Seleniu
 # Navigate to the project directory:
 - cd Harsh-NHSBSA
 
-**Update the web browser in src/test/resources/configuration/defaults.properties to run with chrome or firefox browser**
+**(Update the web browser in src/test/resources/configuration/defaults.properties to run with chrome or firefox browser,
+default-chrome browser)**
 
 # Execute the following Maven command to run the tests:
 **To run all tests:**
 - mvn clean test
 
 **To run tag specific tests:**
+- mvn clean test -Dcucumber.options="--tags @tagName"
 
 # Test Reports
 **After the test run is complete 3 reports are currently generated:**
