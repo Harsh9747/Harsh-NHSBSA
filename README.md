@@ -2,7 +2,7 @@
 
 This is the repository that will contain the Automated E2E Tests for the NHSBSA Project
 
-The tests are written in Java, using Cucumber framework, Maven build and Selenium library with BDD Approach
+The tests are written in Java with the Cucumber framework, Maven build tool, and Selenium library, following the BDD approach.
 
 # Running the Tests
 - Follow these steps to execute the automation test suite from the command line:
